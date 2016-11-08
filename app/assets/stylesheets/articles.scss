@@ -1,0 +1,76 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+  font-family: 'Gentium Basic', serif;
+}
+
+.wrapper{
+  width: 500px;
+}
+
+#conteneur{
+  display: flex;
+}
+
+.lien{
+  margin-left: 15px;
+  margin-top: 21px;
+}
+
+.container{
+  background-color: #F2F6F7;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  border-radius: 7px;
+  box-shadow: inset 1px 1px 40px 0px #cfcfcf;
+}
+
+p{
+  padding-bottom: 30px;
+  padding-top: 20px;
+  color: black;
+}
+
+.deco p{
+  padding-bottom: 40px;
+  padding-top: 20px;
+  border-bottom: 1px solid grey;
+}
+
+a{
+  color: #3E5057;
+}
+
+.navbar-transparent
+{
+  background-color: rgba(0,0,0,0.06);
+}
+
+.navbar-transparent .navbar-brand,
+.navbar-transparent .navbar-nav > li > a {
+  color: #3E5057;
+  line-height: 40px;
+}
+
+i{
+  padding-right: 20px;
+  padding-left: 10px;
+}
+
+h1,h2{
+  font-family: 'Nunito', sans-serif;
+}
+
+img{
+  width: 50px;
+  padding-bottom: 3px;
+}
+
+.full img{
+  width: 100%;
+}
+
+
+
+
